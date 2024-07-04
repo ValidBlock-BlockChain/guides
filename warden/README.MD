@@ -179,7 +179,7 @@ sed -i.bak -e "s/^snapshot-interval *=.*/snapshot-interval = \"$snapshot_interva
 curl -L https://share.utsa.tech/warden/wasm-warden.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.garden --strip-components 2
 ```
 ```
-# добавляем пир
+# adding a peer
 peers="8fa48bbd20d316382f339bd00f31d3a2678682d2@144.76.29.90:26656 "
 sed -i.bak -e "s/^постоянные пользователи *=.*/постоянные пользователи = \"$peers\"/" $HOME/.warden/config/config.tool
 ```

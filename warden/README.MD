@@ -9,5 +9,5 @@ Details
 * Docs: https://docs.wardenprotocol.org/learn/spaceward/tutorial-spaceward
 * Docs: https://docs.wardenprotocol.org/category/validate
 
-# Faucet: 
+### Faucet: 
 `curl -XPOST -d '{"address": "warden1ct40npn9sr2ut0tqsushm8l95v07hf55l8r9sq"}' https://faucet.buenavista.wardenprotocol.org`
